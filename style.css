@@ -1,0 +1,54 @@
+/* Font Squirrel */
+@font-face {
+    font-family: 'Antipasto-Pro-ExtraLight-trial';
+    src: url('fonts/Antipasto-Pro-Regular-trial.ttf') format('woff2'),
+        url('fonts/Antipasto-Pro-ExtraLight-trial.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Bordure top */
+div.border {
+    height: 12px;
+    background-color: #9f9d9d;
+}
+div.Titre {
+    font-family: 'Antipasto-Pro-ExtraLight-trial';
+}
+/* Navigation */
+div#navbarNavDropdown.navbar-collapse {
+    background-color: #e1dede39;
+    border: 4px solid #c7c2c251;
+}
+/* Collection  */
+h2.text-center {
+    border-bottom: solid rgb(221, 221, 221);
+    background-color: #e1dddd5a;
+}
+div.row div {
+    border: solid rgb(221, 221, 221);
+    background-color: #e1dddd5a;
+}
+.carousel-caption {
+    font-family: 'Antipasto-Pro-ExtraLight-trial';
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+    opacity: 0.8;
+}
+div.col-md-6 article {
+    background-color: violet;
+}
+span.high {
+    font-size: 1.5em;
+}
+.conteneurimage {
+    height: 204px;
+    width: 227px;
+    background-image: url('https://www.greta-bretagne-sud.fr/stagiaires-kercode/emmanuel-le-mouellic/fond-book.png');
+}
+/* Media Queries*/
+@media (max-width: 991px) {
+    div#carouselExampleControls.carousel.slide {
+        display: none;
+    }
+} 
